@@ -1,4 +1,7 @@
 #EXTM3U
+# Playlist V4 — merged previous playlist + Knowledge references
+# Verification note: current public sources identify BBC Earth and CGTN Documentary as documentary streams; dhanytv states its playlist is auto-updated daily and supports OTT Navigator. Individual public streams can still change or geo-block.
+# Source basis: public/officially available streams; NatGeo/Discovery official pages are comments only.
 # Playlist khusus OTT Navigator - Indonesia / Korea / China / Movies / Entertainment
 # Sumber stream: playlist publik dhanytv / iptv-org. Stream dapat berubah sewaktu-waktu.
 # EPG utama: https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml
@@ -216,6 +219,51 @@ https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8
 https://familyhls.avatv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="BabySharkTV" group-title="📺 Entertainment International",Baby Shark TV
 https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
+# ===== 📚 KNOWLEDGE | OFFICIAL FREE CONTENT (NOT LIVE M3U) =====
+# National Geographic official unlocked collection (not a public M3U live feed):
+# https://www.nationalgeographic.com/tv/collection/41f7e420-fb4d-4b41-ac42-299ae50f4413
+# Discovery official Unlocked Shows (not a public M3U live feed):
+# https://www.discovery.com/shows/unlocked-shows
+
+
+# ===== 📚 KNOWLEDGE | BBC EARTH / HISTORY / ANIMAL PLANET / SMITHSONIAN =====
+# These are public/free or FAST/HLS sources found in current public playlists.
+# Premium cable feeds are only included where a public HLS source is available.
+#EXTINF:-1 tvg-id="BBCEarth" group-title="📚 Knowledge | Documentary",BBC Earth
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
+#EXTINF:-1 tvg-id="CGTNDocumentary" group-title="📚 Knowledge | Documentary",CGTN Documentary
+https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
+#EXTINF:-1 tvg-id="DocumentaryPlus" group-title="📚 Knowledge | Documentary",Documentary+
+https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="DocumentaryInternational" group-title="📚 Knowledge | Documentary",Documentary International
+https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/mt/documentaryplus/887/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="DiscoveringChina" group-title="📚 Knowledge | Travel",Discovering China
+https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtndiscoveringchina-distrotvus/playlist.m3u8
+#EXTINF:-1 tvg-id="AsharqDiscovery" group-title="📚 Knowledge | Documentary",Asharq Discovery
+https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="AsharqDocumentary" group-title="📚 Knowledge | Documentary",Asharq Documentary
+https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="DWEnglish" group-title="📚 Knowledge | International",DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 tvg-id="NASA" group-title="📚 Knowledge | Space & Science",NASA TV
+https://ntv1.akamaized.net/hls/live/253565/nasa1/master.m3u8
+#EXTINF:-1 tvg-id="NASA2" group-title="📚 Knowledge | Space & Science",NASA TV Public
+https://ntv2.akamaized.net/hls/live/253566/nasa2/master.m3u8
+#EXTINF:-1 tvg-id="EarthTouch" group-title="📚 Knowledge | Wildlife",Earth Touch
+https://amg01397-amg01397c1-plex-us-6609.playouts.now.amagi.tv/playlist/amg01397-earthtouch-earthtouch-plexus/playlist.m3u8
+#EXTINF:-1 tvg-id="LoveNature" group-title="📚 Knowledge | Wildlife",Love Nature
+https://amg01723-amg01723c7-plex-us-5024.playouts.now.amagi.tv/playlist/amg01723-blueantmediagroup-lovenature-plexus/playlist.m3u8
+#EXTINF:-1 tvg-id="WildEarth" group-title="📚 Knowledge | Wildlife",WildEarth
+https://wildearth-plex.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TravelXP" group-title="📚 Knowledge | Travel",Travel XP
+https://travelxp-plex.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Travelxp" group-title="📚 Knowledge | Travel",Travelxp
+https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="WeatherSpy" group-title="📚 Knowledge | Science & Weather",WeatherSpy
+https://weather.zapto.org:1935/weather/weather.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="Science" group-title="📚 Knowledge | Science",Science Channel
+https://amg00034-discovery-science-plex-8h1d7.amagi.tv/playlist.m3u8
+
 # ===== ⭐ FAVORITES — MOST IMPORTANT =====
 #EXTINF:-1 tvg-id="TVRI.id" group-title="⭐ Favorites",⭐ TVRI Nasional
 https://ott-balancer.tvri.go.id/live/eds/TVRINasional/hls/TVRINasional.m3u8
